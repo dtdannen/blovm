@@ -173,14 +173,14 @@ ERROR_CODES = {
 Required Dependencies
 python# Add these to requirements.txt
 """
-nostr-sdk>=0.30.0
-cryptography>=41.0.0
-aiofiles>=23.0.0
-click>=8.0.0
-pytest>=7.0.0
-pytest-asyncio>=0.21.0
-loguru>=0.7.0
-python-dotenv>=1.0.0
+nostr-sdk>=0.42.1
+cryptography>=45.0.5
+aiofiles>=24.1.0
+click>=8.2.1
+pytest>=8.4.1
+pytest-asyncio>=1.0.0
+loguru>=0.7.3
+python-dotenv>=1.1.1
 """
 nostr_sdk Usage Patterns
 Based on the ezdvm library, use these patterns for nostr_sdk:
